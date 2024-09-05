@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +7,17 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     background-color: #161A1D;
     color: #fff;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
-header{
+
+header {
     display: flex;
     flex-direction: row;
     gap: 208px;
@@ -22,54 +25,143 @@ header{
     justify-content: center;
     padding: 45px 0;
 }
-.links{
+
+.links {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 70px;
 }
-.link, .botaoContato{
+
+.link, .botaoContato {
     color: white;
     font-size: 25px;
     font-weight: 700;
-    font-family: "PT Sans", sans-serif;
     transition: all 0.5s;
-    -webkit-transition: all 0.5s;
 }
-.link:hover{
 
+.link:hover {
     transform: scale(1.1);
 }
-.linkVermelho{
+
+.linkVermelho {
     color: #A4161A;
 }
-.botaoContato{
+
+.botaoContato {
     padding: 12.5px 30px;
     border: 0;
     border-radius: 100px;
     background-color: #A4161A;
     color: #ffffff;
-    font-weight: Bold;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+    font-weight: bold;
 }
-.botaoContato:hover{
+
+.botaoContato:hover {
     background-color: #E5383B;
     box-shadow: 0 0 20px #D3D3D3;
     transform: scale(1.1);
 }
-.botaoContato:active{
+
+.botaoContato:active {
     background-color: #660708;
-    transition: all 0.25s;
-    -webkit-transition: all 0.25s;
     box-shadow: none;
     transform: scale(0.98);
-  
 }
-#um{
+
+#um {
     display: flex;
     flex-direction: row;
 }
+
+/* Detetive Particular Section */
+.detetive-particular {
+    padding: 40px;
+    background-color: #212121;
+}
+
+.detetive-particular .detetive-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.info-container {
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* WhatsApp Button */
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e53935;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Serviços Section */
+.servicos {
+    padding: 40px;
+    background-color: #333;
+}
+
+.servicos .detetive-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Maior Agência Section */
+.maior-agencia {
+    padding: 40px;
+    background-color: #1b1b1b;
+    text-align: center;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e53935;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.statistics {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.stat {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.stat h2 {
+    font-size: 36px;
+    color: #e53935;
+}
+
+.stat p {
+    font-size: 18px;
+}
+
 /* Parte 1 - Localização */
 .location-section {
     display: flex;
