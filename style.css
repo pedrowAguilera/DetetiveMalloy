@@ -48,6 +48,21 @@ header {
     color: #A4161A;
 }
 
+.primeiroBotao{
+    width: 204px;
+    padding: 18px 31px ;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+.textoEsquerda .title{
+    font-size: 70px;
+    font-weight: 700;
+}
+.textoEsquerda .title b{
+    color: #A4161A;
+}
 .botaoContato {
     padding: 12.5px 30px;
     border: 0;
@@ -69,9 +84,26 @@ header {
     transform: scale(0.98);
 }
 
-#um {
+#um{
     display: flex;
     flex-direction: row;
+    padding: 0 200px;
+    position: relative;
+}
+#um .imgDireita{
+
+    position: absolute;
+    left: 670px;
+    top: -100px;
+}
+#um .imgDireita img{
+    z-index: -1;
+    position: absolute;
+    height: auto;
+    width: 800px;
+}
+.textoEsquerda{
+    width: 570px;
 }
 
 /* Detetive Particular Section */
