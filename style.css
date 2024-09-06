@@ -33,7 +33,8 @@ header {
     gap: 70px;
 }
 
-.link, .botaoContato {
+.link,
+.botaoContato {
     color: white;
     font-size: 25px;
     font-weight: 700;
@@ -48,21 +49,24 @@ header {
     color: #A4161A;
 }
 
-.primeiroBotao{
+.primeiroBotao {
     width: 204px;
-    padding: 18px 31px ;
+    padding: 18px 31px;
     border: 1px solid white;
     display: flex;
     justify-content: center;
     border-radius: 25px;
 }
-.textoEsquerda .title{
+
+.textoEsquerda .title {
     font-size: 70px;
     font-weight: 700;
 }
-.textoEsquerda .title b{
+
+.textoEsquerda .title b {
     color: #A4161A;
 }
+
 .botaoContato {
     padding: 12.5px 30px;
     border: 0;
@@ -84,25 +88,28 @@ header {
     transform: scale(0.98);
 }
 
-#um{
+#um {
     display: flex;
     flex-direction: row;
     padding: 0 200px;
     position: relative;
 }
-#um .imgDireita{
+
+#um .imgDireita {
 
     position: absolute;
     left: 670px;
     top: -100px;
 }
-#um .imgDireita img{
+
+#um .imgDireita img {
     z-index: -1;
     position: absolute;
     height: auto;
     width: 800px;
 }
-.textoEsquerda{
+
+.textoEsquerda {
     width: 570px;
 }
 
@@ -203,11 +210,12 @@ li {
 }
 
 .location-card {
-    background-color: #0e0e0e;
+    background-color: #0D0B11;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
     width: 300px;
+    margin-top: 150px;
 }
 
 .location-card p {
@@ -248,6 +256,7 @@ li {
 .about-text {
     padding: 40px;
     max-width: 600px;
+    background-color: #0D0B11;
 }
 
 .about-text h2 {
@@ -276,55 +285,81 @@ li {
 
 /* Parte 2 - Investigação Digital */
 .digital-investigation-section {
-    background-color: #0d0d0d;
-    padding: 60px 40px;
+    background-image: url(images/fundo2.png);
+    padding: 100px 400px;
+}
+
+.back-investigation {
+    background-color: #0D0B11;
     text-align: center;
+    border-radius: 10px;
 }
 
 .digital-investigation-container {
     max-width: 900px;
     margin: 0 auto;
-    text-align: left;
 }
 
 .digital-investigation-container h2 {
-    font-size: 36px;
-    color: #e40000;
-    margin-bottom: 40px;
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+.digital-investigation-container span {
+    color: #e31b23;
 }
 
 .digital-investigation-container h3 {
     font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
     margin-bottom: 10px;
+    padding: 20px
 }
 
 .digital-investigation-container p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
     margin-bottom: 20px;
+    padding: 20px
 }
 
 .digital-investigation-container button {
-    background-color: #e40000;
-    color: #fff;
-    border: none;
-    padding: 15px 30px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-top: 20px;
+    padding: 12.5px 30px;
+    border: 0.5px solid;
+    border-color: white;
+    border-radius: 100px;
+    background-color: #0D0B11;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.digital-investigation-container button:hover {
+    background-color: #E5383B;
+    box-shadow: 0 0 5px #D3D3D3;
+    transform: scale(1.1);
+}
+
+.digital-investigation-container button:active {
+    background-color: #660708;
+    box-shadow: none;
+    transform: scale(0.98);
 }
 
 /* Parte 3 - Serviços de Investigação */
 .services-section {
-    background-color: #0c0c0c;
-    padding: 60px 40px;
-    text-align: center;
+    padding: 100px 400px;
+    text-align: left;
 }
 
 .services-section h2 {
-    font-size: 28px;
+    font-size: 42px;
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+    text-align: center;
 }
 
 .service-item {
@@ -335,7 +370,7 @@ li {
 
 .service-item h3 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #fff;
 }
 
@@ -349,6 +384,7 @@ li {
     font-size: 18px;
     line-height: 1.6;
     color: #d3d3d3;
+    width: 800px;
 }
 
 button {
@@ -358,4 +394,132 @@ button {
     padding: 15px 30px;
     font-size: 18px;
     cursor: pointer;
+}
+
+/* Detetive particular online: */
+.detetive-particular {
+    background-color: #0E0B0E;
+    h1 {
+        text-align: center;
+        font-size: 36px;
+        color: #fff;
+        margin-bottom: 20px;
+      }
+      
+      h1 .destaque {
+        color: #e31b23;
+      }
+      
+      .intro {
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.6;
+        max-width: 900px;
+        margin: 0 auto 40px auto;
+      }
+      
+      .content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+      }
+      
+      .left-content, .right-content {
+        width: 48%;
+        position: relative;
+      }
+      
+      .image-container {
+        position: relative;
+        width: 100%;
+      }
+      
+      .image-detetive, .image-monitorando {
+        width: 60%;
+        border-radius: 10px;
+      }
+      .image-detetive{
+        margin-left: 20%;
+      }
+      .image-monitorando{
+        margin-left: 10%;
+      }
+      .box-info, .box-description {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(20%, -50%);
+        background-color: #0D0B11;
+        padding: 20px;
+        border-radius: 8px;
+        width: 70%;
+        color: #fff;
+        width: 300px;
+      }
+      .box-description{
+        transform: translate(-50%, -50%);
+      }
+      
+      .box-info ul {
+        list-style: none;
+      }
+      
+      .box-info ul li {
+        font-size: 16px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+      }
+      
+      .lower-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+      }
+      
+      .lower-text {
+        width: 32%;
+      }
+      
+      .lower-text p {
+        padding: 20px;
+        border-radius: 8px;
+      }
+      
+      .extra-info {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #fff;
+        width: 550px;
+        margin-left: 25%;
+      }
+      .extra-info2 {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #fff;
+        margin-left: -38%;
+        width: 550px;
+      }
+      
+      .cta {
+        text-align: center;
+        margin-top: 40px;
+      }
+      
+      button {
+        background-color: #e31b23;
+        color: #fff;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 50px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      button:hover {
+        background-color: #b71c1c;
+      }
+
 }
